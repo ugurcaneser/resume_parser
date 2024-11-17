@@ -121,7 +121,7 @@ class ResumeParser:
         print(f"Parsed data saved to {output_path}")
 
 if __name__ == "__main__":
-    filepath = "../cv_ugurcaneser.pdf"  # Replace with the path to the resume
+    filepath = "path/to/your/resume/file"  # Replace with the path to the resume
     skills_list = ["Python", "Java", "Machine Learning", "Data Science", "SQL", "Git"]
     
     parser = ResumeParser(filepath)

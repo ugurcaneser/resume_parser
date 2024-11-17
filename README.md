@@ -17,9 +17,9 @@ Necessary Python libraries:
 
 ## Usage/Examples
 
-You'll only need to change output_path to your Resume file path. That's all!
+You'll only need to change filepath to your Resume file path. That's all!
 
 ```javascript
-parser.save_to_json(parsed_data, output_path="parsed_resume.json")
+filepath = "path/to/your/resume/file"
 ```
 
